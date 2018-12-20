@@ -474,4 +474,50 @@ footer ul li a:hover {
           transform: scale(1.1);
   font-weight: 700;
 }
+
+@media (max-width: 992px) {
+  .mojmodal .close,
+  .mojmodal2 .close,
+  .mojmodal3 .close,
+  .mojmodal4 .close,
+  .mojmodal5 .close,
+  .mojmodal6 .close {
+    top: 0;
+    right: 25px;
+  }
+  .mojmodal .m-container,
+  .mojmodal2 .m-container,
+  .mojmodal3 .m-container,
+  .mojmodal4 .m-container,
+  .mojmodal5 .m-container,
+  .mojmodal6 .m-container {
+    margin-top: 0;
+  }
+  .mojmodal .m-body img,
+  .mojmodal2 .m-body img,
+  .mojmodal3 .m-body img,
+  .mojmodal4 .m-body img,
+  .mojmodal5 .m-body img,
+  .mojmodal6 .m-body img {
+    width: 100%;
+    height: 100%;
+  }
+  .mojmodal .m-footer p,
+  .mojmodal2 .m-footer p,
+  .mojmodal3 .m-footer p,
+  .mojmodal4 .m-footer p,
+  .mojmodal5 .m-footer p,
+  .mojmodal6 .m-footer p {
+    width: 100%;
+  }
+  .mojmodal .m-footer ul,
+  .mojmodal2 .m-footer ul,
+  .mojmodal3 .m-footer ul,
+  .mojmodal4 .m-footer ul,
+  .mojmodal5 .m-footer ul,
+  .mojmodal6 .m-footer ul {
+    padding: 0;
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
